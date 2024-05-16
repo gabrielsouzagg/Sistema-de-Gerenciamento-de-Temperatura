@@ -9,6 +9,4 @@ Tecnologias Utilizadas
 HTML
 CSS
 JavaScript
-Como usar
-Clone o repositório: git clone https://github.com/seu-usuario/nome-do-repositorio.git
-Abra o arquivo index.html em um navegador web.
+
