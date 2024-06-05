@@ -22,7 +22,7 @@ header {
 }
 
 .info-header {
-  color: white;
+  color: rgb(51, 50, 50);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,12 +51,12 @@ header {
 
 .sidebar {
   width: 20%;
-  background-color: #fff;
+  background-color: #474444;
   height: 100%;
 }
 
 .sidebar h3 {
-  color: #333;
+  color: #ddd5d5;
   font-size: 20px;
   margin: 10px;
 }
@@ -66,16 +66,16 @@ header {
   text-decoration: none;
   margin-left: 15px;
   margin-top: 20px;
-  color: #444;
+  color: #d6d2d2;
 }
 
 .sidebar a > svg {
-  color: #444;
+  color: #e6e1e1;
 }
 
 .sidebar-divisor {
   opacity: 0.5;
-  color: #444;
+  color: #d6cccc;
 }
 
 .logout {
