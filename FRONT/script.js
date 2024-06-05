@@ -1,5 +1,5 @@
 function getData() {
-    fetch("http://localhost:8000/monitoramento/recentes")
+    fetch("http://192.168.13.130:5000/monitoramento")
       .then((response) => response.json())
       .then((data) => {
         console.log(data);
@@ -10,10 +10,14 @@ function getData() {
         data.forEach((item) => {
           const row = tableBody.insertRow();
           row.innerHTML = `
-                        <td class="alignItensColumn">${item.Id}</td>
-                        <td class="alignItensColumn">${item.Temperatura}</td>
-                        <td class="alignItensColumn">${item.Umidade}</td>
-                        <td class="alignItensColumn">${item.Dispositivo}</td>
+                        <td class="alignItensColumn">${item.id}</td>
+                        <td class="alignItensColumn">${item.temperatura}</td>
+                        <td class="alignItensColumn">${item.umidade}</td>
+                        <td class="alignItensColumn">${item.luminosidade}</td>
+                        <td class="alignItensColumn">${item.presença}</td>
+                        <td class="alignItensColumn">${item.distancia}</td>
+                        <td class="alignItensColumn">${item.Data}</td>
+                        <td class="alignItensColumn">${item.dispositivo}</td>
                     `;
         });
       })
