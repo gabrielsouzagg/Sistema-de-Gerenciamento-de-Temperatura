@@ -14,9 +14,9 @@ function getData() {
                         <td class="alignItensColumn">${item.temperatura}</td>
                         <td class="alignItensColumn">${item.umidade}</td>
                         <td class="alignItensColumn">${item.luminosidade}</td>
-                        <td class="alignItensColumn">${item.presença}</td>
+                        <td class="alignItensColumn">${item.presenca}</td>
                         <td class="alignItensColumn">${item.distancia}</td>
-                        <td class="alignItensColumn">${item.Data}</td>
+                        <td class="alignItensColumn">${item.dt.created}</td>
                         <td class="alignItensColumn">${item.dispositivo}</td>
                     `;
         });
