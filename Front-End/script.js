@@ -16,6 +16,8 @@ function getData() {
                       <td class="alignItensColumn">${item.dispositivo}</td>
                       <td class="alignItensColumn">${item.luminosidade}</td>
                       <td class="alignItensColumn">${item.dt_created}</td>
+                      <td class="alignItensColumn">${item.presenca}</td>
+                      <td class="alignItensColumn">${item.distancia}</td>
                   `;
       });
     })
